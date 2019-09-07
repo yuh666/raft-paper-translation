@@ -1,1 +1,1 @@
-# the NorthEast Chinese Fanyi of the Raft Paper(In Search of an Understandable Consensus Algorithm) 
+# The NorthEast Chinese Fanyi of the Raft Paper(In Search of an Understandable Consensus Algorithm) 
