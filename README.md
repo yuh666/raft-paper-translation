@@ -18,5 +18,5 @@
 
 # 2.复制状态机
     一致性算法基本上都是基于复制状态机的。按照这种状态机的实现方式，一个集群里面的服务节点处理每个状态相同的副本，及时里面有一些节点已经挂了。复制状态机在分布式系统中被用来解决各种各样的容错问题。有一个主节点的大型分布式系统，例如 GFS、HDFS、RAMCLOUD，都用了一个单独的状态机来管理集群的选主和配置的存储，以此来保证及时leader以及挂了，集群还能正常运行。这些复制状态机有Zookeeper 或者 Chubby等。
-    
+    ![Image text](https://raw.githubusercontent.com/yuh666/raft-paper-translation/master/imgs/state%20machine.png)
     
